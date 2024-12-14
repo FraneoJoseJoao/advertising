@@ -75,12 +75,7 @@ html {
     margin: 5px;
     scale: 1;
     transition: 0.5s;
-    margin-top: 10px;
-}
-
-#log:hover {
-    margin-top: 20px;
-    transform: scale(1.2);
+    margin-top: 5px;
 }
 
 nav ul {
@@ -378,7 +373,7 @@ footer {
 .container {
     opacity: 0;
     filter: blur(15px);
-    transform: translateY(-100%);
+    transform: translateY(100%);
     transition: all 1s;
 }
 
@@ -554,7 +549,7 @@ footer {
         justify-content: center;
 
         h2 {
-            font-size: 3rem;
+            font-size: 2rem;
             margin: 15px;
         }
 
