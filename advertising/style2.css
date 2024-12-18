@@ -92,13 +92,26 @@ nav{
 }
 
 .inicioImg .img4{
-    width: 40px;
-    height: 50px;
+    width: 50px;
+    height: 60px;
     position: absolute;
     top: 5rem;
     left: 32%;
 }
 
+.v1{
+    width: 132px;
+    height: 90px;
+    position: absolute;
+    top: 9.6rem;
+    left: 43%;
+}
+
+.v2{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
 
 
 
