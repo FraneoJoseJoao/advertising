@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Grey+Qo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #626364;
+    font-family: "EB Garamond", serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+main{width: 100%;}
+
+.s1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+.s1 h1 {
+    font-family: "Grey Qo", serif;
+    font-size: 3rem;
+    fovnt-weight: 600;
+    color: #fff;
+}
+
+.s1 h2 {
+    font-family: "Agu Display", serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.principal {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inicioImg{
+    width: 1000px;
+    height: 460px;
+    z-index: 4;
+}
+
+.inicioImg .img1 {
+    width: 700px;
+    height: 450px;
+}
+
+.v1 {
+    width: 130px;
+    height: 80px;
+    position: absolute;
+    top: 19.8rem;
+    left: 45.5rem;
+    z-index: 0;
+}
+
+.v2 {
+    border-radius: 10px;
+    width: 260px;
+    height: 124px;
+    position: absolute;
+    top: 17rem;
+    left: 27rem;
+    z-index: 1;
+}
+
+.textInicio{
+    background-color: #fff;
+    width: 140px;
+    left: 15px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
