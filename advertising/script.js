@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     preloader.style.display = 'none';
     content.style.display = 'block';
-  }, 2000); // Altere o tempo conforme necessário
+  }, 10); // Altere o tempo conforme necessário
 });
 
 
