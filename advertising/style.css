@@ -65,13 +65,13 @@ html {
 }
 
 #log {
-    background-image: url(./img/1.png);
+    background-image: url(./img/logo.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px;
-    width: 130px;
-    height: 60px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
     margin: 5px;
     scale: 1;
     transition: 0.5s;
@@ -267,49 +267,11 @@ section {
     }
 }
 
-#contact {
-    justify-content: space-around;
-
-    h2 {
-        font-size: 3rem;
-    }
-
-    fieldset {
-        border-radius: 10px;
-
-        legend {
-            color: #363636;
-        }
-    }
-
-    form {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        width: 30vw;
-        height: 50vh;
-        justify-content: space-around;
-
-        input {
-            border-radius: 5px;
-            border: 0.3px solid black;
-            border-collapse: collapse;
-            padding: 10px;
-        }
-
-        textarea {
-            height: 50px;
-            padding: 10px;
-        }
-
-        #env:hover {
-            cursor: pointer;
-            transition: 0.5s;
-            background-color: #333;
-            color: #fff;
-        }
-    }
-
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 30px; */
 }
 
 #redes {
@@ -370,10 +332,17 @@ footer {
     border-top: 0.5px solid white;
 }
 
-.container {
+.efeito {
     opacity: 0;
     filter: blur(15px);
-    transform: translateY(100%);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.efeito_Esquerda {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
     transition: all 1s;
 }
 
