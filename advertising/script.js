@@ -5,10 +5,10 @@ window.addEventListener('load', () => {
   // Simula o carregamento para efeitos visuais
   setTimeout(() => {
     preloader.style.display = 'none';
-    content.style.display = 'block';
+    // content.style.display = 'block';
   }, 10); // Altere o tempo conforme necessário
 });
-
+alert("De momento o site está em fora de uso, por questão de Manutenção de Atualização");
 
 const efeito = new IntersectionObserver((aparece) =>{
   aparece.forEach ((aparecendo) => {
