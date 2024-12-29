@@ -5,18 +5,10 @@ window.addEventListener('load', () => {
   // Simula o carregamento para efeitos visuais
   setTimeout(() => {
     preloader.style.display = 'none';
-    content.style.display = 'block';
-  }, 2000); // Altere o tempo conforme necessário
+    // content.style.display = 'block';
+  }, 10); // Altere o tempo conforme necessário
 });
-
-
-document.getElementById("contact-form").addEventListener("submit", function (e) {
-    e.preventDefault();
-    alert("Obrigado por entrar em contato! Responderemos em breve.");
-    document.querySelector('#name').value = "";
-    document.querySelector('#email').value = "";
-    document.querySelector('#message').value = "";
-});
+alert("De momento o site está em fora de uso, por questão de Manutenção de Atualização");
 
 const efeito = new IntersectionObserver((aparece) =>{
   aparece.forEach ((aparecendo) => {
@@ -29,8 +21,11 @@ const efeito = new IntersectionObserver((aparece) =>{
   })
 });
 
-const secoes = document.querySelectorAll('.container');
+const secoes = document.querySelectorAll('.efeito');
 secoes.forEach((element) => efeito.observe(element));
+
+const efeito_Esquerda = document.querySelectorAll('.efeito_Esquerda');
+efeito_Esquerda.forEach((element) => efeito.observe(element));
 
 function mostrarNum() {
   alert("WhatsApp: +244 955-360-283, esteja a vontade para entrar em contacto conosco! Não exite em investir no seu Futuro!");

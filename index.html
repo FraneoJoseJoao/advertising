@@ -17,42 +17,47 @@
     <!-- Conteúdo da página -->
      <header>
         <div id="head">
-            <a href="#home"><div id="log"></div></a>
+            <a href="#home" id="l"><div id="log"></div>ADVERTISING</a>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">Sobre Nós</a></li>
                     <li><a href="#team">Equipe</a></li>
                     <li><a href="#services">Serviços</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
                     <li><a href="#redes">Redes Sociais</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="home">
-        <div id="pc" class="container">
-            <img src="advertising/img/boas vindas.gif" alt="Boas vindas">
-            <hr>
-        </div>
-        <div class="container inf">
-            <h2>Transformamos Ideias em Resultados</h2>
-            <p>Especialistas em Marketing Digital e Estratégias Criativas.</p>
+
+    <section id="casa">
+      <div class="efeito_Esquerda inf">
+            <h2>Transformamos <br> Ideias em Resultados</h2>
+            <p>Especialistas em Marketing Digital e <br> Estratégias Criativas.</p>
         </div>
     </section>
 
+    <section id="home">
+        <div id="pc" class="efeito_Esquerda">
+            <img src="advertising/img/boas vindas.gif" alt="Boas vindas">
+            <hr>
+        </div>
+        
+    </section>
+
     <section id="about">
-        <h2 class="container">Sobre Nós</h2>
-        <p class="container">Somos uma Empresa de marketing digital focada em entregar resultados reais. Nossa equipe une criatividade e dados para desenvolver campanhas que realmente funcionam. <br>
+        <h2 class="efeito_Esquerda">Sobre Nós</h2>
+        <p class="efeito">Somos uma Empresa de marketing digital focada em entregar resultados reais. Nossa equipe une criatividade e dados para desenvolver campanhas que realmente funcionam. <br>
         Temos como propósito principal, <span>Contribuir significavamente para o crescimento de empresas grandes e pequenas.</span> <br> Deseja expandir o seu negócio e atrair mais clientes? <br>Com certeza <span>Somos a lolução do seu problema</span> ; Entre já em contacto!
         </p>
     </section>
 
    <section id="team">
-        <h2 class="container">Equipe</h2>
-        <div class="team-members container">
-            <div class="member container">
+        <h2 class="efeito_Esquerda">Equipe</h2>
+        <div class="team-members efeito">
+            <div class="member efeito">
                 <h3>Frâneo João</h3>
                 <ul>
                     <li><a href="https://www.instagram.com/franeojoao/"><img src="./advertising/img/instagram_3670125.png" alt="Instagram"></a></li>
@@ -64,7 +69,7 @@
                     <li><a href="#team" onclick="indisponivel()"><img src="./advertising/img/avatardefault_92824.png" alt="usuario"></a></li>
                 </ul>
             </div>
-            <div class="member container">
+            <div class="member efeito">
                 <h3>Edmilson Cassule</h3>
                 <ul>
                      <li><a href="#team" onclick="indisponivel()"><img src="./advertising/img/instagram_3670125.png" alt="Instagram"></a></li>
@@ -76,7 +81,7 @@
                     <li><a href="#team" onclick="indisponivel()"><img src="./advertising/img/avatardefault_92824.png" alt="usuario"></a></li>
                 </ul>
             </div>
-            <div class="member container">
+            <div class="member efeito">
                 <h3>Bráulio Quilengo</h3>
                 <ul>
                      <li><a href="#team" onclick="indisponivel()"><img src="./advertising/img/instagram_3670125.png" alt="Instagram"></a></li>
@@ -92,23 +97,23 @@
     </section>
 
     <section id="services">
-        <h2 class="container">Serviços</h2>
+        <h2 class="efeito_Esquerda">Serviços</h2>
         <div class="service-cards">
             <div class="prin">
-                <div class=" card container">
+                <div class=" card efeito_Esquerda">
                     <h3>Gestão de Redes Sociais</h3>
                     <p>Criação de conteúdo e estratégias para aumentar sua presença online.</p>
                 </div>
-                <div class="card container">
+                <div class="card efeito_Esquerda">
                     <h3>SEO e SEM</h3>
                     <p>Otimização de sites e campanhas para maior alcance orgânico e pago.</p>
                 </div>
-                <div class="card container">
+                <div class="card efeito_Esquerda">
                     <h3>Design Gráfico</h3>
                     <p>Criação de identidades visuais e materiais promocionais.</p>
                 </div>
             </div>
-    <ul class="seg container">
+    <ul class="seg efeito">
     <li><strong>Marketing Digital</strong>
       <ul>
         <li>Gestão de redes sociais (Instagram, Facebook, LinkedIn, TikTok, etc.)</li>
@@ -175,37 +180,22 @@
         </div>
     </section>
 
-    <section id="contact">
-        <h2 class="container">Contato</h2>
-        
-        <fieldset>
-            <legend>Entres em contacto conosco</legend>
-        <form id="contact-form" action="advertising/enviar.php" method="post" class="container">
-            <label for="name" class="container">Nome</label>
-            <input type="text" id="name" name="name" required class="container">
-            <label for="email" class="container">Email</label>
-            <input type="email" id="email" name="email" required class="container">
-            <label for="message" class="container">Mensagem</label>
-            <textarea id="message" name="message" required class="container"></textarea>
-            <input type="submit" value="Enviar" id="env" class="container">
-        </form>
-        </fieldset>
-
-        
+    <section id="gallery">
+      <h2>Em desenvolvimento...</h2>
     </section>
     
     <section id="redes">
-          <div id="cont" class="container">
-              <img src="./advertising/img/whatsapp_2111728.png" alt="whatsapp" onclick="mostrarNum()" class="container">
-              <a href="https://www.instagram.com/" class="container"><img src="./advertising/img/instagram_3670125.png" alt="instagram"></a>
-              <a href="https://www.facebook.com/" class="container"><img src="./advertising/img/letter-f_6846952.png" alt="FaceBook"></a>
+          <div id="cont" class="efeito_Esquerda">
+              <img src="./advertising/img/whatsapp_2111728.png" alt="whatsapp" onclick="mostrarNum()" class="efeito">
+              <a href="https://www.instagram.com/" class="efeito"><img src="./advertising/img/instagram_3670125.png" alt="instagram"></a>
+              <a href="https://www.facebook.com/" class="efeito"><img src="./advertising/img/letter-f_6846952.png" alt="FaceBook"></a>
           </div>
-        <p class="container">Para mais informações: <a href="#contact" class="container">Entre em Contacto</a></p>
+        <p class="efeito">Para mais informações: <a href="#gallery" class="efeito">Entre em Contacto</a></p>
     </section>
 
     <footer>
-        <div class="container">
-            <p class="container">© 2024 ADVERTISING. Todos os direitos reservados.</p>
+        <div class="efeito">
+            <p class="efeito">© 2024 ADVERTISING. Todos os direitos reservados.</p>
         </div>
     </footer>
   </div>
